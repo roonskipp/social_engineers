@@ -2,9 +2,9 @@
   "name": "social_engineers",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "start": "node server/index.js"
+    "start": "nodemon server/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -17,5 +17,10 @@
     "express-session": "^1.17.2",
     "pg": "^8.6.0",
     "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
   }
 }
